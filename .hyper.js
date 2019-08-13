@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 16,
 
     // font family with optional fallbacks
-    fontFamily:  'Fira Mono for Powerline',
+    fontFamily:  'Droid Sans Mono for Powerline',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -103,7 +103,7 @@ module.exports = {
     //
     // PowerShell on Windows
     // - Example: `C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe`
-    shell: 'C:\\Windows\\System32\\bash.exe',
+    shell: '/usr/local/bin/zsh',
 
     // for setting shell arguments (i.e. for using interactive shellArgs: `['-i']`)
     // by default `['--login']` will be used
